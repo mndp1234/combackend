@@ -14,7 +14,7 @@
     <name>combackend</name>
     <description>combackend</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
