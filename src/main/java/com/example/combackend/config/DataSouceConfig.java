@@ -1,4 +1,4 @@
-package com.example.combackend.data_source;
+package com.example.combackend.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
