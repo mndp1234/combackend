@@ -15,11 +15,11 @@ public class TestingController {
     @Autowired
     private UserRepository userRepository;
 
-    private final RedisTemplate<String,Object> redisTemplate;
+    private final RedisTemplate<String,String> redisTemplate;
 
     public static final Logger log = LogManager.getLogger(TestingController.class);
 
-    public TestingController(RedisTemplate<String, Object> redisTemplate) {
+    public TestingController(RedisTemplate<String,String> redisTemplate) {
         this.redisTemplate = redisTemplate;
     }
 

@@ -33,8 +33,8 @@ public class RedisConfig {
     }
 
     @Bean
-    public RedisTemplate<String, Object> redisTemplate(JedisConnectionFactory jedisConnectionFactory) {
-        RedisTemplate<String, Object> template = new RedisTemplate<>();
+    public RedisTemplate<String,String> redisTemplate(JedisConnectionFactory jedisConnectionFactory) {
+        RedisTemplate<String,String> template = new RedisTemplate<>();
         template.setConnectionFactory(jedisConnectionFactory);
         return template;
     }
