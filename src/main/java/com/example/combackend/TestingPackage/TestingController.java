@@ -36,7 +36,7 @@ public class TestingController {
 
         log.info("Api gives the error");
 
-        return "success";
+        return redisTemplate.opsForValue().get("testing");
     }
 
 }
