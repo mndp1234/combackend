@@ -5,6 +5,7 @@ import com.example.combackend.UserRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -14,7 +15,14 @@ public class TestingController {
     @Autowired
     private UserRepository userRepository;
 
+    private final RedisTemplate<String,Object> redisTemplate;
+
     public static final Logger log = LogManager.getLogger(TestingController.class);
+
+    public TestingController(RedisTemplate<String, Object> redisTemplate) {
+        this.redisTemplate = redisTemplate;
+    }
+
 
     @GetMapping("/test/api")
     public String TestApi(@RequestParam String name){
@@ -22,6 +30,9 @@ public class TestingController {
         User user = new User();
         user.setName(name);
         userRepository.save(user);
+
+        redisTemplate.opsForValue().set("userName",name);
+
 
         log.info("Api gives the error");
 
