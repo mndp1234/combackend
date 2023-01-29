@@ -21,7 +21,7 @@ public class KafkaConfig {
     public ConsumerFactory<String, String> consumerFactory() {
 
         Map<String, Object> config = new HashMap<>();
-        config.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "b-1.democluster2.rdbr4c.c4.kafka.ap-south-1.amazonaws.com");
+        config.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "b-1.democluster2.rdbr4c.c4.kafka.ap-south-1.amazonaws.com:9092");
         config.put(ConsumerConfig.GROUP_ID_CONFIG, "group_id");
         config.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         config.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
