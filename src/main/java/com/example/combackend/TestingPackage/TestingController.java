@@ -31,7 +31,7 @@ public class TestingController {
         user.setName(name);
         userRepository.save(user);
 
-        redisTemplate.opsForValue().set("userName",name);
+        redisTemplate.opsForValue().set("testing",name);
 
 
         log.info("Api gives the error");
