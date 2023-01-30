@@ -1,0 +1,150 @@
+[18:55:38.299 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Starting CombackendApplication using Java 11.0.12 on DESKTOP-C4FN0RV with PID 23084 (C:\Users\mndpd\IdeaProjects\combackend\target\classes started by mndpd in C:\Users\mndpd\IdeaProjects\combackend)
+[18:55:38.303 [main] INFO  sample-application: com.example.combackend.CombackendApplication - The following 1 profile is active: "dev2"
+[18:55:38.629 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[18:55:38.669 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+[18:55:38.942 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[18:55:38.950 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[18:55:38.950 [main] INFO  sample-application: org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[18:55:38.950 [main] INFO  sample-application: org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[18:55:39.020 [main] INFO  sample-application: org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[18:55:39.020 [main] INFO  sample-application: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 695 ms
+[18:55:39.086 [main] INFO  sample-application: org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[18:55:39.112 [main] INFO  sample-application: org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+[18:55:39.178 [main] INFO  sample-application: org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[18:55:39.229 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[18:55:40.003 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[18:55:40.009 [main] INFO  sample-application: org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[18:55:40.368 [main] INFO  sample-application: org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[18:55:40.373 [main] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[18:55:40.518 [main] WARN  sample-application: org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18:55:40.705 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[18:55:40.716 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[18:55:40.723 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Started CombackendApplication in 2.668 seconds (JVM running for 3.558)
+[18:57:11.553 [SpringApplicationShutdownHook] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[18:57:11.554 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[18:57:11.941 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[19:24:37.163 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Starting CombackendApplication using Java 11.0.12 on DESKTOP-C4FN0RV with PID 13212 (C:\Users\mndpd\IdeaProjects\combackend\target\classes started by mndpd in C:\Users\mndpd\IdeaProjects\combackend)
+[19:24:37.167 [main] INFO  sample-application: com.example.combackend.CombackendApplication - The following 1 profile is active: "dev2"
+[19:24:37.500 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[19:24:37.529 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+[19:24:37.778 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[19:24:37.789 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[19:24:37.790 [main] INFO  sample-application: org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[19:24:37.790 [main] INFO  sample-application: org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[19:24:37.856 [main] INFO  sample-application: org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[19:24:37.856 [main] INFO  sample-application: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 665 ms
+[19:24:37.923 [main] INFO  sample-application: org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[19:24:37.946 [main] INFO  sample-application: org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+[19:24:38.016 [main] INFO  sample-application: org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[19:24:38.069 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[19:24:38.760 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[19:24:38.769 [main] INFO  sample-application: org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[19:24:39.155 [main] INFO  sample-application: org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[19:24:39.161 [main] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[19:24:39.303 [main] WARN  sample-application: org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[19:24:39.484 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[19:24:39.497 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[19:24:39.502 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Started CombackendApplication in 2.557 seconds (JVM running for 3.397)
+[19:26:21.271 [SpringApplicationShutdownHook] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[19:26:21.272 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[19:26:21.653 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[19:27:15.969 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Starting CombackendApplication using Java 11.0.12 on DESKTOP-C4FN0RV with PID 17952 (C:\Users\mndpd\IdeaProjects\combackend\target\classes started by mndpd in C:\Users\mndpd\IdeaProjects\combackend)
+[19:27:15.974 [main] INFO  sample-application: com.example.combackend.CombackendApplication - The following 1 profile is active: "dev2"
+[19:27:16.304 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[19:27:16.330 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+[19:27:16.571 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[19:27:16.579 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[19:27:16.579 [main] INFO  sample-application: org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[19:27:16.579 [main] INFO  sample-application: org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[19:27:16.642 [main] INFO  sample-application: org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[19:27:16.642 [main] INFO  sample-application: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 644 ms
+[19:27:16.707 [main] INFO  sample-application: org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[19:27:16.730 [main] INFO  sample-application: org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+[19:27:16.797 [main] INFO  sample-application: org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[19:27:16.854 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[19:27:17.506 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[19:27:17.514 [main] INFO  sample-application: org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[19:27:17.920 [main] INFO  sample-application: org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[19:27:17.925 [main] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[19:27:18.081 [main] WARN  sample-application: org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[19:27:18.269 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[19:27:18.280 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[19:27:18.287 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Started CombackendApplication in 2.539 seconds (JVM running for 3.486)
+[19:27:44.158 [SpringApplicationShutdownHook] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[19:27:44.160 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[19:27:44.531 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[19:27:47.076 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Starting CombackendApplication using Java 11.0.12 on DESKTOP-C4FN0RV with PID 19252 (C:\Users\mndpd\IdeaProjects\combackend\target\classes started by mndpd in C:\Users\mndpd\IdeaProjects\combackend)
+[19:27:47.080 [main] INFO  sample-application: com.example.combackend.CombackendApplication - The following 1 profile is active: "dev2"
+[19:27:47.420 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[19:27:47.451 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+[19:27:47.732 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[19:27:47.740 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[19:27:47.741 [main] INFO  sample-application: org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[19:27:47.741 [main] INFO  sample-application: org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[19:27:47.825 [main] INFO  sample-application: org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[19:27:47.825 [main] INFO  sample-application: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 724 ms
+[19:27:47.891 [main] INFO  sample-application: org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[19:27:47.917 [main] INFO  sample-application: org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+[19:27:47.987 [main] INFO  sample-application: org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[19:27:48.053 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[19:27:48.724 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[19:27:48.731 [main] INFO  sample-application: org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[19:27:49.108 [main] INFO  sample-application: org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[19:27:49.113 [main] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[19:27:49.259 [main] WARN  sample-application: org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[19:27:49.433 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[19:27:49.444 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[19:27:49.450 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Started CombackendApplication in 2.589 seconds (JVM running for 3.411)
+[19:28:05.032 [SpringApplicationShutdownHook] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[19:28:05.034 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[19:28:05.440 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[19:28:08.113 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Starting CombackendApplication using Java 11.0.12 on DESKTOP-C4FN0RV with PID 23640 (C:\Users\mndpd\IdeaProjects\combackend\target\classes started by mndpd in C:\Users\mndpd\IdeaProjects\combackend)
+[19:28:08.117 [main] INFO  sample-application: com.example.combackend.CombackendApplication - The following 1 profile is active: "dev2"
+[19:28:08.447 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[19:28:08.484 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+[19:28:08.757 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[19:28:08.764 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[19:28:08.764 [main] INFO  sample-application: org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[19:28:08.764 [main] INFO  sample-application: org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[19:28:08.826 [main] INFO  sample-application: org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[19:28:08.826 [main] INFO  sample-application: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 686 ms
+[19:28:08.892 [main] INFO  sample-application: org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[19:28:08.915 [main] INFO  sample-application: org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+[19:28:08.981 [main] INFO  sample-application: org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[19:28:09.036 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[19:28:09.595 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[19:28:09.604 [main] INFO  sample-application: org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[19:28:10.010 [main] INFO  sample-application: org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[19:28:10.017 [main] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[19:28:10.171 [main] WARN  sample-application: org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[19:28:10.378 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[19:28:10.390 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[19:28:10.396 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Started CombackendApplication in 2.502 seconds (JVM running for 3.424)
+[19:28:47.970 [SpringApplicationShutdownHook] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[19:28:47.971 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[19:28:48.341 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[19:28:51.050 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Starting CombackendApplication using Java 11.0.12 on DESKTOP-C4FN0RV with PID 15696 (C:\Users\mndpd\IdeaProjects\combackend\target\classes started by mndpd in C:\Users\mndpd\IdeaProjects\combackend)
+[19:28:51.054 [main] INFO  sample-application: com.example.combackend.CombackendApplication - The following 1 profile is active: "dev2"
+[19:28:51.362 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[19:28:51.389 [main] INFO  sample-application: org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+[19:28:51.631 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[19:28:51.638 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[19:28:51.639 [main] INFO  sample-application: org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[19:28:51.639 [main] INFO  sample-application: org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[19:28:51.701 [main] INFO  sample-application: org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[19:28:51.701 [main] INFO  sample-application: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 628 ms
+[19:28:51.765 [main] INFO  sample-application: org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[19:28:51.787 [main] INFO  sample-application: org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+[19:28:51.855 [main] INFO  sample-application: org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[19:28:51.906 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[19:28:52.525 [main] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[19:28:52.534 [main] INFO  sample-application: org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[19:28:52.949 [main] INFO  sample-application: org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[19:28:52.955 [main] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[19:28:53.105 [main] WARN  sample-application: org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[19:28:53.296 [main] INFO  sample-application: org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[19:28:53.308 [main] INFO  sample-application: org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[19:28:53.315 [main] INFO  sample-application: com.example.combackend.CombackendApplication - Started CombackendApplication in 2.47 seconds (JVM running for 3.4)
+[19:29:30.858 [SpringApplicationShutdownHook] INFO  sample-application: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[19:29:30.859 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[19:29:31.240 [SpringApplicationShutdownHook] INFO  sample-application: com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
